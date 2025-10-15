@@ -1,0 +1,84 @@
+.onboarding-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F9FAFB;
+}
+
+.onboarding-card {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 8px 32px rgba(110,198,255,0.12);
+  padding: 40px 32px 32px 32px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.onboarding-message {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 28px;
+  margin-top: 10px;
+}
+
+.onboarding-input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid #B39DDB;
+  font-size: 1rem;
+  margin-bottom: 24px;
+  outline: none;
+  transition: border 0.2s;
+}
+.onboarding-input:focus {
+  border: 1.5px solid #6EC6FF;
+}
+
+.emoji-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.emoji-btn {
+  font-size: 2rem;
+  background: #F9FAFB;
+  border: 2px solid #B39DDB;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  transition: border 0.2s, background 0.2s;
+}
+.emoji-btn.selected, .emoji-btn:hover {
+  border: 2.5px solid #6EC6FF;
+  background: #E3F2FD;
+}
+
+.onboarding-btn {
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 24px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(110,198,255,0.10);
+  transition: background 0.2s;
+}
+
+.onboarding-back {
+  background: none;
+  border: none;
+  color: #6EC6FF;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  text-decoration: underline;
+}
